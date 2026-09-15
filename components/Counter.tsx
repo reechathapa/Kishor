@@ -1,6 +1,6 @@
 "use client";
 
-import { animate, useInView } from "framer-motion";
+import { animate, useInView, useReducedMotion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 
 /** Number that counts up from 0 when scrolled into view. */
@@ -15,24 +15,22 @@ export function Counter({
 }) {
   const ref = useRef<HTMLSpanElement>(null);
   const inView = useInView(ref, { once: true, margin: "-40px" });
-  const [display, setDisplay] = useState(0);
+  const reduceMotion = useReducedMotion();
+  /** Animation progress, 0 → 1. Kept in state so the effect only ever writes
+   *  from the animation frame callback (never synchronously in the effect). */
+  const [progress, setProgress] = useState(0);
 
   useEffect(() => {
-    if (!inView) return;
-    const reduce =
-      typeof window !== "undefined" &&
-      window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    if (reduce) {
-      setDisplay(value);
-      return;
-    }
-    const controls = animate(0, value, {
+    if (!inView || reduceMotion) return;
+    const controls = animate(0, 1, {
       duration,
       ease: [0.16, 1, 0.3, 1],
-      onUpdate: (v) => setDisplay(v),
+      onUpdate: setProgress,
     });
     return () => controls.stop();
-  }, [inView, value, duration]);
+  }, [inView, reduceMotion, duration]);
 
-  return <span ref={ref}>{display.toFixed(decimals)}</span>;
+  const final = !inView ? 0 : reduceMotion ? value : progress * value;
+
+  return <span ref={ref}>{final.toFixed(decimals)}</span>;
 }
