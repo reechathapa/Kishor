@@ -135,6 +135,26 @@ ol {
   list-style: none;
 }
 
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+  background: var(--c-orange);
+  color: #fff;
+  padding: 10px 16px;
+  font-size: 12px;
+}
+.skip-link:focus {
+  left: 12px;
+  top: 12px;
+}
+
+section[id],
+footer[id] {
+  scroll-margin-top: 12px;
+}
+
 ::selection {
   background: var(--c-orange);
   color: var(--c-white);
@@ -684,9 +704,9 @@ ol {
 
 .hero-sign {
   position: absolute;
-  right: -14%;
-  top: 52%;
-  width: 70%;
+  right: -21%;
+  top: 49%;
+  width: 71%;
   max-width: 520px;
   pointer-events: none;
 }
@@ -756,12 +776,8 @@ ol {
 
 .strategy-meta-l {
   display: grid;
-  grid-template-columns: 1fr auto;
-  column-gap: 20px;
+  grid-template-columns: 76.8% 1fr;
   align-items: start;
-}
-.strategy-meta-l .m2 {
-  margin-right: 23%;
 }
 
 .strategy-head {
@@ -1052,7 +1068,7 @@ ol {
 
 .work-meta {
   display: grid;
-  grid-template-columns: 1fr auto 1fr;
+  grid-template-columns: 50.4% 1fr auto;
   gap: 16px;
   margin-top: 26px;
   font-size: var(--fs-micro);
@@ -2043,6 +2059,10 @@ ol {
 }
 .select select:focus {
   outline: none;
+}
+.select option {
+  color: #111111;
+  background: #ffffff;
 }
 .select svg {
   position: absolute;

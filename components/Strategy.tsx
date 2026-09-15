@@ -7,7 +7,7 @@ export function Strategy() {
       <div className="strategy-top">
         <div className="strategy-meta-l micro">
           <span>Launched</span>
-          <span className="m2">
+          <span>
             <Counter value={24} />+ projects
           </span>
         </div>

@@ -3,9 +3,9 @@ import { Counter } from "./Counter";
 import { MaskedLines, Reveal } from "./motion";
 
 const DOTS = [
-  { top: "12%", left: "4.8%" },
-  { top: "38%", left: "82.9%" },
-  { top: "62%", left: "4.8%" },
+  { top: 203, left: "0.8%" },
+  { top: 401, left: "82.2%" },
+  { top: 597, left: "0.8%" },
 ];
 
 export function How() {
@@ -18,7 +18,7 @@ export function How() {
             <span
               key={i}
               className="how-dot"
-              style={{ top: `calc(${d.top} + 60px)`, left: d.left }}
+              style={{ top: d.top, left: d.left }}
               aria-hidden="true"
             />
           ))}

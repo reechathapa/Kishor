@@ -6,6 +6,7 @@ import "@fontsource/roboto/900.css";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://kishor.studio"),
   title: "Kishor® Studio — Conversion-First Design & Development Studio",
   description:
     "We align strategy, design, and engineering into a single high-performance loop. Your vision, executed with surgical precision and conversion-first logic.",
@@ -22,6 +23,7 @@ export const metadata: Metadata = {
       "Strategy before pixels. We build websites where moving forward feels obvious, natural, and impossible to overthink.",
     type: "website",
     siteName: "Kishor® Studio",
+    images: [{ url: "/img/hero-bg.jpg", width: 1600, height: 900 }],
   },
   twitter: {
     card: "summary_large_image",
@@ -43,7 +45,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <a className="skip-link" href="#top">
+          Skip to content
+        </a>
+        {children}
+      </body>
     </html>
   );
 }
