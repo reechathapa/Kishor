@@ -6,7 +6,7 @@ agency landing page, rebuilt as a production Next.js app and rebranded as
 
 ## Stack
 
-- Next.js 15 (App Router) + React 19 + TypeScript
+- Next.js 16 (App Router, Turbopack) + React 19 + TypeScript
 - Framer Motion for reveals, masked headline lines, accordions, counters and the
   pinned horizontal work scroller
 - Self-hosted Roboto (`@fontsource/roboto`) — 400 / 500 / 700 / 900
@@ -51,8 +51,20 @@ aspect ratio and crop.
 
 ## Develop
 
+Requires Node.js **20.9+** (Next.js 16 runtime requirement).
+
 ```bash
 npm install
 npm run dev      # http://localhost:3000
 npm run build
+npm run lint     # eslint (flat config, eslint-config-next)
+npm run typecheck
 ```
+
+## Security
+
+Next.js is pinned to **16.3.5** and React to **19.3.0** — both above the patched
+releases for CVE-2025-66478 / CVE-2025-55182 (React Server Components RCE,
+advisories of 2025-12-03 and 2025-12-11). `npm audit` reports 0 vulnerabilities.
+Do not downgrade `next` below 16.0.10 (or to any 15.x below 15.5.9) without
+re-checking <https://nextjs.org/blog/CVE-2025-66478>.
