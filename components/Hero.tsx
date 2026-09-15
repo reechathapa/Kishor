@@ -81,14 +81,13 @@ export function Hero() {
 
         <motion.div className="hero-mid" {...fade(0.5)}>
           <p className="hero-blurb">
-            <span className="em">We align strategy, design, and engineering into</span>{" "}
-            <span className="dimw">a single</span>{" "}
+            <span className="em">Strategy, design, and engineering running as</span>{" "}
+            <span className="dimw">one</span>{" "}
             <span className="em">
-              high-performance loop. Your vision, executed with surgical precision
-              and
+              continuous loop. Your idea, built with deliberate craft and
             </span>{" "}
-            <span className="dimw">conversion-first</span>{" "}
-            <span className="em">logic.</span>
+            <span className="dimw">a bias toward</span>{" "}
+            <span className="em">measurable results.</span>
           </p>
           <div className="hero-person">
             {/* eslint-disable-next-line @next/next/no-img-element */}

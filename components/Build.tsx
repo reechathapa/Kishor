@@ -31,10 +31,10 @@ export function Build() {
           </div>
           <Reveal>
             <p className="build-blurb">
-              <span className="dimw">Where moving forward feels</span>{" "}
-              <span className="em">obvious, natural,</span>{" "}
+              <span className="dimw">Where the next step feels</span>{" "}
+              <span className="em">obvious, unhurried,</span>{" "}
               <span className="dimw">and</span>{" "}
-              <span className="em">impossible to overthink.</span>
+              <span className="em">impossible to misread.</span>
             </p>
           </Reveal>
           <Reveal delay={0.1} className="zoom">

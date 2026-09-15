@@ -17,9 +17,8 @@ export function Services() {
         <div className="col">
           <Reveal>
             <p className="lead services-intro">
-              Every project starts with understanding how your customers make
-              decisions — and what&apos;s stopping them from making one right
-              now.
+              Every engagement starts with how your customers actually decide —
+              and what is quietly stopping them from deciding today.
             </p>
           </Reveal>
         </div>

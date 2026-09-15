@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://kishor.studio"),
   title: "Kishor® Studio — Conversion-First Design & Development Studio",
   description:
-    "We align strategy, design, and engineering into a single high-performance loop. Your vision, executed with surgical precision and conversion-first logic.",
+    "Kishor® Studio is a design and development studio building conversion-focused websites — strategy, interface design, and front-end engineering under one roof.",
   keywords: [
     "design studio",
     "web design",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Kishor® Studio — Conversion-First Design & Development Studio",
     description:
-      "Strategy before pixels. We build websites where moving forward feels obvious, natural, and impossible to overthink.",
+      "Structure before surface. We build websites where the next step feels obvious and nothing gets in the visitor's way.",
     type: "website",
     siteName: "Kishor® Studio",
     images: [{ url: "/img/hero-bg.jpg", width: 1600, height: 900 }],

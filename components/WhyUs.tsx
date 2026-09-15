@@ -10,9 +10,9 @@ export function WhyUs() {
           <span className="whyus-label">Why us?</span>
           <Reveal className="stat-card dark" delay={0.1}>
             <p className="cap">
-              Average client rating
+              Average review score
               <br />
-              on Google &amp; Clutch
+              across our platforms
             </p>
             <div className="row">
               <span className="num">
@@ -45,13 +45,13 @@ export function WhyUs() {
           <MaskedLines
             className="display whyus-head"
             as="h2"
-            lines={["Built on", "reputation"]}
+            lines={["Trusted", "by referral"]}
           />
           <Reveal className="stat-card light" delay={0.15}>
             <p className="cap">
-              Business comes from
+              New work arrives
               <br />
-              direct referrals
+              through direct referral
             </p>
             <div className="row">
               <span className="num">

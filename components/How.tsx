@@ -27,11 +27,11 @@ export function How() {
               <Counter value={60} />+
             </div>
             <p className="cap">
-              <span className="em">Projects shipped</span>
+              <span className="em">Builds delivered</span>
               <br />
-              with measurable
+              against a stated
               <br />
-              conversion lift
+              conversion goal
             </p>
           </Reveal>
           <Reveal className="how-stat" delay={0.1}>
@@ -39,11 +39,11 @@ export function How() {
               <Counter value={3.2} decimals={1} />S
             </div>
             <p className="cap">
-              Average time to first
+              Median time to first
               <br />
-              <span className="em">meaningful action</span> on our
+              <span className="em">meaningful click</span> once a
               <br />
-              sites
+              page loads
             </p>
           </Reveal>
           <Reveal className="how-stat indent" delay={0.2}>
@@ -51,9 +51,9 @@ export function How() {
               <Counter value={89} />%
             </div>
             <p className="cap">
-              Of clients come from
+              Of new projects arrive
               <br />
-              <span className="em">direct referrals</span>
+              <span className="em">by referral</span>
             </p>
           </Reveal>
         </div>
@@ -63,20 +63,19 @@ export function How() {
             className="display how-head"
             as="h2"
             lines={[
-              "Every",
-              "result here",
-              "started with",
-              "a problem",
-              "worth",
-              "solving.",
+              "Nothing",
+              "we ship",
+              "starts as",
+              "a brief.",
+              "It starts",
+              "as a problem.",
             ]}
           />
           <Reveal delay={0.15}>
             <p className="how-blurb">
-              We <span className="em">don&apos;t chase volume</span>. We take on
-              projects where our process can make a{" "}
-              <span className="em">measurable difference</span>. Most clients
-              stay for years.
+              We <span className="em">keep the roster small</span>. We take work
+              where the process can <span className="em">move a number that
+              matters</span> — and most clients come back.
             </p>
           </Reveal>
           <Reveal delay={0.25} className="how-person">

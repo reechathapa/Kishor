@@ -25,8 +25,8 @@ export function Testimonials() {
           <span className="testi-label">Client stories</span>
           <div className="testi-tools">
             <p className="testi-copy">
-              We let the <span className="em">results speak</span>. But
-              sometimes the people behind them have{" "}
+              The work should <span className="em">carry the argument</span>.
+              Occasionally the people behind it have{" "}
               <span className="em">something to add</span>.
             </p>
             <div className="testi-arrows">

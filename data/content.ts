@@ -1,3 +1,12 @@
+/**
+ * All copy in this file is original placeholder content written for the site
+ * owner. Names, figures, prices, quotes, client marks and article titles are
+ * stand-ins chosen to match the reference layout's visual rhythm (line counts
+ * and character lengths) — replace them with real data before launch.
+ * Anything that must not be invented (testimonials, clients, statistics) is
+ * flagged with `PLACEHOLDER` below.
+ */
+
 export const BRAND = {
   name: "KISHOR",
   reg: "®",
@@ -5,10 +14,10 @@ export const BRAND = {
   taglinePre: "Conversion-first",
   taglineEm: "design & dev",
   taglinePost: "studio",
-  est: "(EST. 2019 — VERSION 1.0.4)",
+  est: "(EST. 2021 — VERSION 1.0.0)",
   disciplines: ["DESIGN", "DEVELOPMENT", "MARKETING"],
-  slotsLabel: "SLOTS FOR APR:",
-  slotsLeft: "2 LEFT",
+  slotsLabel: "SLOTS FOR OCT:",
+  slotsLeft: "2 LEFT", // PLACEHOLDER availability
   person: {
     name: "Kishor",
     role: "Founder & CEO",
@@ -16,10 +25,10 @@ export const BRAND = {
     avatar: "/img/avatar.jpg",
   },
   contact: {
-    phone: "+00 00 0000 0000",
+    phone: "+00 00 0000 0000", // PLACEHOLDER
     email: "hello@kishor.studio",
-    hours: "WE USUALLY RESPOND TO ALL DIGITAL ENQUIRIES WITHIN 2 BUSINESS HOURS.",
-    address: "00 Placeholder Street, Your City, XX0 0XX",
+    hours: "BRIEFS ARE READ BY A HUMAN, AND ANSWERED WITHIN TWO WORKING DAYS.",
+    address: "00 Placeholder Street, Your City, XX0 0XX", // PLACEHOLDER
     hoursOpen: ["Mon–Fri: 09:00 – 18:00", "Sat: 10:00 – 16:00"],
   },
   nav: [
@@ -33,8 +42,8 @@ export const BRAND = {
 export const PROJECTS = [
   {
     index: "(01)",
-    title: "Box mode",
-    marquee: "BOX MODE",
+    title: "Carton Supply Co.",
+    marquee: "CARTON SUPPLY CO.",
     tags: ["Branding", "Development"],
     year: "/2026",
     image: "/img/project-box.jpg",
@@ -43,8 +52,8 @@ export const PROJECTS = [
   },
   {
     index: "(02)",
-    title: "Nomad Stays",
-    marquee: "NOMAD STAYS",
+    title: "Northline Cabins",
+    marquee: "NORTHLINE CABINS",
     tags: ["Web design", "Development"],
     year: "/2026",
     image: "/img/project-nomad.jpg",
@@ -53,8 +62,8 @@ export const PROJECTS = [
   },
   {
     index: "(03)",
-    title: "We run brand",
-    marquee: "WE RUN BRAND",
+    title: "Pace Athletic",
+    marquee: "PACE ATHLETIC",
     tags: ["Web design", "Branding"],
     year: "/2026",
     image: "/img/project-run.jpg",
@@ -67,10 +76,10 @@ export const SERVICES = [
   {
     num: "01",
     title: "Strategy & Research",
-    price: "$2,900",
+    price: "$2,900", // PLACEHOLDER rate card
     cols: [
-      "Kishor Studio opens every project with an audit of your current customer journey. We identify the moments where users lose context or delay a decision, then restructure the flow so each next step feels like the obvious thing to do. Behavioral patterns backed by data.",
-      "This approach reduces drop-offs before design even begins. It builds an environment where choosing you becomes the path of least resistance for your customer.",
+      "We open each engagement by mapping the journey your customers are already on. Where they hesitate, where they lose the thread, and what would make the next step feel like the obvious one — then we restructure the flow around those moments.",
+      "Settling that before any design work begins is what keeps the rest of the project honest. Decisions get easier, drop-off falls away, and the design has a real problem to solve instead of a mood to match.",
     ],
     image: "/img/services-climb.jpg",
     alt: "Woman climbing a steep snowy rock cliff, black and white",
@@ -78,10 +87,10 @@ export const SERVICES = [
   {
     num: "02",
     title: "Design & Prototyping",
-    price: "$3,900",
+    price: "$3,900", // PLACEHOLDER rate card
     cols: [
-      "We translate strategic insights into high-fidelity interfaces that prioritize clarity and visual impact. Every element is tested through interactive prototypes, ensuring that the user experience is intuitive, seamless, and perfectly aligned with your brand's unique identity.",
-      "By prototyping before coding, we eliminate guesswork and ensure technical feasibility. You get a pixel-perfect preview of the final product, allowing for rapid iteration and a design that truly resonates with your target audience.",
+      "Insights become interfaces here. We design in high fidelity and put every significant flow into a clickable prototype, so the experience is tested against how people behave rather than how we hope they will.",
+      "Prototyping ahead of code removes most of the guesswork and surfaces feasibility questions while they are still cheap to answer. You approve a working preview of the product, not a flat picture of it.",
     ],
     image: "/img/project-box.jpg",
     alt: "Minimal packaging boxes arranged sculpturally, black and white",
@@ -89,10 +98,10 @@ export const SERVICES = [
   {
     num: "03",
     title: "Development",
-    price: "$4,500",
+    price: "$4,500", // PLACEHOLDER rate card
     cols: [
-      "Our development process focuses on clean, scalable code and high-performance engineering. We build responsive websites and custom web applications using modern frameworks that ensure fast loading times, robust security, and a future-proof architecture.",
-      "We bridge the gap between complex functionality and effortless performance. The result is a high-speed digital product that functions flawlessly across all devices, providing a rock-solid foundation for your business to scale and grow.",
+      "The build is typed, component-driven and boring in the best sense. We ship responsive sites and custom applications on modern frameworks, with performance budgets, sensible caching and security handled from the first commit.",
+      "Functionality should never cost you speed. What lands is a fast, maintainable product that behaves the same on a five-year-old phone as it does on a large desktop display.",
     ],
     image: "/img/project-run.jpg",
     alt: "Runner sprinting in a white t-shirt, black and white",
@@ -100,10 +109,10 @@ export const SERVICES = [
   {
     num: "04",
     title: "Support & Growth",
-    price: "$1,200",
+    price: "$1,200", // PLACEHOLDER rate card
     cols: [
-      "Launching is just the beginning. We provide proactive monitoring, security updates, and performance tuning to keep your platform running at peak efficiency. Our team remains available to implement new features and refine the UX based on real-world user data.",
-      "This continuous optimization ensures your site evolves alongside your business needs. We minimize downtime and technical debt, giving you the peace of mind to focus on your core operations while we handle the technical heavy lifting.",
+      "Launch starts the measurement period, it does not end the project. We watch uptime and Core Web Vitals, keep dependencies patched, and tune whichever part of the funnel the data keeps flagging.",
+      "That loop stops a site from decaying the month it ships. You get predictable maintenance and a team that already knows the codebase when the next feature is needed.",
     ],
     image: "/img/project-nomad.jpg",
     alt: "Calm minimal cabin interior in black and white",
@@ -111,10 +120,10 @@ export const SERVICES = [
   {
     num: "05",
     title: "SEO",
-    price: "$990",
+    price: "$990", // PLACEHOLDER rate card
     cols: [
-      "Our SEO strategy goes beyond keywords; we optimize the technical architecture and content hierarchy for maximum visibility. We ensure search engines can crawl, index, and rank your site effectively, driving high-quality organic traffic directly to your platform.",
-      "Visibility leads to authority. By aligning your site with search intent, we help you capture high-intent leads and maintain a competitive edge. It's about building a sustainable traffic source that grows in value over time.",
+      "We treat search as an engineering problem first: crawlable architecture, clean internal linking, structured data, and a content hierarchy that matches the queries you actually want to win.",
+      "Relevance compounds. Aligning the site with genuine search intent lowers what you pay for every visitor and keeps working long after the launch announcement.",
     ],
     image: "/img/blog-flowers.jpg",
     alt: "White flowers with dark leaves on a dark background, black and white",
@@ -123,24 +132,24 @@ export const SERVICES = [
 
 export const HOW_STATS = [
   {
-    value: 60,
+    value: 60, // PLACEHOLDER statistic
     suffix: "+",
-    cap: ["PROJECTS SHIPPED", "WITH MEASURABLE", "CONVERSION LIFT"],
+    cap: ["BUILDS DELIVERED", "AGAINST A STATED", "CONVERSION GOAL"],
     em: [0],
     indent: true,
   },
   {
-    value: 3.2,
+    value: 3.2, // PLACEHOLDER statistic
     suffix: "S",
     decimals: 1,
-    cap: ["AVERAGE TIME TO FIRST", "MEANINGFUL ACTION ON OUR", "SITES"],
+    cap: ["MEDIAN TIME TO FIRST", "MEANINGFUL CLICK ONCE", "A PAGE LOADS"],
     em: [1],
     indent: false,
   },
   {
-    value: 89,
+    value: 89, // PLACEHOLDER statistic
     suffix: "%",
-    cap: ["OF CLIENTS COME FROM", "DIRECT REFERRALS"],
+    cap: ["OF NEW PROJECTS ARRIVE", "BY REFERRAL"],
     em: [1],
     indent: true,
   },
@@ -148,52 +157,52 @@ export const HOW_STATS = [
 
 export const FAQS = [
   {
-    q: "Do you write the copy or do I need to provide it?",
-    a: "We can handle it both ways. You can provide your own content, or our copywriters can craft professional, SEO-optimized copy tailored specifically to your brand and goals.",
+    q: "Who writes the copy — you or me?",
+    a: "Either works. Send through what you have and we will edit it to fit the page, or our writers can draft it from the research phase. Nothing reaches design until you have read and approved the words.",
   },
   {
-    q: "Can I see the design before you build it?",
-    a: "Absolutely. We don't start the development phase until you have reviewed and fully approved the high-fidelity design mockups in Figma.",
+    q: "Will I see the design before development starts?",
+    a: "Yes. Nothing is built until you have walked through the high-fidelity screens and signed them off. Changes at that stage cost a conversation; the same changes in code cost a sprint.",
   },
   {
-    q: "What happens after launch?",
-    a: "We don't just disappear. We provide post-launch technical support, training for your team on how to manage the site, and options for ongoing maintenance and scaling.",
+    q: "What happens once the site is live?",
+    a: "We stay on. Monitoring, dependency and security updates, a handover session so your team can edit content confidently, and a maintenance plan sized to how often the site actually changes.",
   },
   {
-    q: "What if I'm not happy with the result?",
-    a: "We work in clear milestones (wireframes, design, development). By requiring your approval at each stage, we ensure the final product aligns perfectly with your vision before it's even finished.",
+    q: "What if the result isn't what I expected?",
+    a: "The work runs in milestones — wireframes, design, build — and each one needs your approval before the next begins. Surprises are rare, and course corrections happen while they are still small.",
   },
 ];
 
 export const PLANS = [
   {
     name: "Foundation",
-    desc: "A solid site built on proven structure. Launch-ready, no extras.",
-    price: "$4,800",
+    desc: "A complete site on a proven structure. Ready to launch, nothing extra.",
+    price: "$4,800", // PLACEHOLDER rate card
     featured: false,
   },
   {
     name: "Growth",
-    desc: "Strategy, copy guidance, and a site built to convert.",
-    price: "$9,600",
+    desc: "Strategy, copy direction, and a site engineered to convert.",
+    price: "$9,600", // PLACEHOLDER rate card
     featured: true,
   },
   {
     name: "Scale",
-    desc: "End-to-end digital infrastructure.",
-    price: "$15,900",
+    desc: "Full-stack digital infrastructure, end to end.",
+    price: "$15,900", // PLACEHOLDER rate card
     featured: false,
   },
 ];
 
 export const PLAN_ROWS: { feature: string; values: (string | boolean)[] }[] = [
-  { feature: "Strategy & behavioral audit", values: [true, true, true] },
+  { feature: "Strategy & behaviour audit", values: [true, true, true] },
   { feature: "Number of pages", values: ["Up to 5", "Up to 12", "Unlimited"] },
   { feature: "Conversion wireframes", values: [false, false, true] },
   { feature: "Copywriting support", values: [false, "Direction", "Full"] },
   { feature: "Brand identity system", values: [false, false, true] },
   {
-    feature: "Copywriting support",
+    feature: "Analytics & reporting",
     values: ["Basic", "Advanced", "Advanced + reports"],
   },
   { feature: "A/B testing setup", values: [false, true, true] },
@@ -201,58 +210,60 @@ export const PLAN_ROWS: { feature: string; values: (string | boolean)[] }[] = [
   { feature: "Ongoing support", values: [false, true, true] },
 ];
 
+/** PLACEHOLDER — swap in real, permissioned client quotes before launch. */
 export const TESTIMONIALS = [
   {
     quote:
-      "\"We launched in two weeks and had paying customers by week three. I've worked with agencies that took months to deliver half of this.\"",
-    name: "Sophie Andersen",
-    role: "Co-founder",
+      "“[Client quote placeholder — this slot holds a real testimonial once you have permission to publish one.]”",
+    name: "[Client name]",
+    role: "[Role, Company]",
     image: "/img/testimonial-portrait.jpg",
-    alt: "Black and white studio portrait of a woman with sculpted blonde hair",
+    alt: "Black and white studio portrait, placeholder for the client's photo",
   },
   {
     quote:
-      "\"The hardest part of building a website isn't the code — it's knowing what to leave out. Every element that doesn't serve the visitor is working against you.\"",
-    name: "Kishor",
-    role: "Founder at Kishor®",
+      "“[Second client quote placeholder — keep it to roughly three lines at this display size.]”",
+    name: "[Client name]",
+    role: "[Role, Company]",
     image: "/img/testimonial-portrait.jpg",
-    alt: "Black and white studio portrait of a woman with sculpted blonde hair",
+    alt: "Black and white studio portrait, placeholder for the client's photo",
   },
 ];
 
+/** PLACEHOLDER — stand-in marks so the marquee keeps its rhythm. */
 export const CLIENTS = [
-  "Watchtower",
-  "Asterisk",
-  "Shutterframe",
-  "Visionwork",
-  "PictelAI",
-  "Quanta",
+  "Acme",
+  "Northwind",
+  "Globex",
+  "Initech",
+  "Hooli",
+  "Vandelay",
 ];
 
 export const POSTS = [
   {
-    title: "Why most redesigns fail — and what to do instead",
+    title: "Why redesigns stall, and the three decisions that unblock them",
     date: "31 MAR 2026",
     image: "/img/blog-laptop.jpg",
     alt: "Person in white sweater typing on a vintage laptop, grainy black and white",
     variant: "std",
   },
   {
-    title: "The one metric that actually predicts whether your site will convert",
+    title: "The metric that predicts conversion better than traffic does",
     date: "31 MAR 2026",
     image: null,
     alt: "",
     variant: "panel",
   },
   {
-    title: "How we cut bounce rate by 34% with one layout change",
+    title: "A layout change that shortened the path to sign-up",
     date: "30 MAR 2026",
     image: "/img/blog-crouch.jpg",
     alt: "Woman crouching in a black blazer and white lace blouse, black and white",
     variant: "tall",
   },
   {
-    title: "Small defaults, big outcomes: lessons from behavioral design",
+    title: "Default values are design decisions",
     date: "25 MAR 2026",
     image: "/img/blog-flowers.jpg",
     alt: "White flowers with dark glossy leaves on a dark background, black and white",

@@ -16,7 +16,7 @@ export function Strategy() {
           <MaskedLines
             className="display"
             as="h2"
-            lines={["Strategy", "before", "pixels."]}
+            lines={["Structure", "before", "surface."]}
           />
         </div>
       </div>
@@ -25,13 +25,13 @@ export function Strategy() {
         <div className="col">
           <Reveal>
             <p className="strategy-blurb">
-              <span className="dimw">People decide</span>{" "}
-              <span className="em">if they trust your site</span>{" "}
-              <span className="dimw">before they read a word on it. That's not a
-              metaphor. Visual credibility forms almost instantly, and it's
-              shaped by</span>{" "}
-              <span className="em">spacing, typography, image quality,</span>{" "}
-              <span className="dimw">and structure.</span>
+              <span className="dimw">Visitors judge</span>{" "}
+              <span className="em">whether a page deserves them</span>{" "}
+              <span className="dimw">long before they read a line of it.
+              Credibility settles in the first second, and it is built out
+              of</span>{" "}
+              <span className="em">spacing, type, image quality,</span>{" "}
+              <span className="dimw">and how clearly the page is ordered.</span>
             </p>
           </Reveal>
           <div className="strategy-foot">
@@ -54,9 +54,9 @@ export function Strategy() {
               <Counter value={12} />+
             </div>
             <p className="cap">
-              Industries where our sites
+              Sectors where our builds
               <br />
-              consistently outperform benchmarks
+              beat the client&apos;s previous baseline
             </p>
           </Reveal>
         </div>

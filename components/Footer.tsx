@@ -23,8 +23,7 @@ export function Footer() {
               </span>
             </div>
             <p className="note">
-              I&apos;ll personally review your brief and get back to you within
-              two hours.
+              I read every brief myself and reply within two working days.
             </p>
             <p className="role">{BRAND.person.roleFooter}</p>
           </Reveal>
@@ -60,9 +59,9 @@ export function Footer() {
           />
           <Reveal>
             <p className="footer-blurb">
-              Whether you have a full brief or just an idea, we&apos;re here to
-              help shape it. No pitch decks, no sales calls —{" "}
-              <span className="em">just a clear next step</span>.
+              Send a full brief or a half-formed idea — both are useful starting
+              points. No pitch decks, no call funnel,{" "}
+              <span className="em">just a direct reply</span>.
             </p>
           </Reveal>
 

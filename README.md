@@ -33,9 +33,21 @@ Testimonials carousel · Client logo band · News grid · Footer with contact fo
 
 ## Content
 
-Personal branding, name, contact details and imagery are placeholders for the
-site owner ("Kishor®"); imagery is AI-generated stand-ins matched to the
-reference's composition, aspect ratio and crop.
+The reference supplies **layout only**. Every word on the page is original
+placeholder copy written for the site owner ("Kishor®") and lives in
+`data/content.ts` plus the section components — no text is carried over from
+the reference template.
+
+Things that must not be invented are flagged `PLACEHOLDER` in `data/content.ts`
+and are obvious on the page:
+
+- client testimonials and the founder statement (bracketed placeholders)
+- client logo band (stand-in marks + dummy brand names)
+- statistics, rate card prices, contact details and address
+- project names and article titles
+
+Imagery is AI-generated stand-ins matched to the reference's composition,
+aspect ratio and crop.
 
 ## Develop
 

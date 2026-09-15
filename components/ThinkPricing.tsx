@@ -25,16 +25,15 @@ export function ThinkPricing() {
           <div className="think-quote-wrap">
             <Reveal>
               <blockquote className="think-quote">
-                “The hardest part of building a website isn&apos;t the code —
-                it&apos;s knowing what to leave out. Every element that
-                doesn&apos;t serve the visitor is working against you.”
+                “[Founder statement placeholder — swap in your own view on what
+                makes a site work. Roughly two lines reads best at this size.]”
               </blockquote>
             </Reveal>
             <Reveal delay={0.1}>
               <p className="think-cap">
-                Our team treats simplicity as a
+                Restraint is a design decision,
                 <br />
-                discipline, not a shortcut.
+                not a budget constraint.
               </p>
             </Reveal>
           </div>
